@@ -1,0 +1,75 @@
+/* Header Styles */
+header {
+	background-color: #ffcc00;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+}
+
+.search-bar {
+	flex-grow: 1;
+	margin: 0 20px;
+	display: flex;
+}
+
+.search-bar input {
+	flex-grow: 1;
+	padding: 8px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+	background-color: #ffffff;
+	border: none;
+	padding: 8px;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+.search-bar button img {
+	background-color: #ffffff;
+	width: 20px;
+	height: 20px;
+}
+
+.header-icons img {
+	width: 25px;
+	margin: 0 5px;
+}
+
+.login a {
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.payment-section {
+	margin-top: 10px;
+}
+
+.pay-now-header {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.pay-now-header:hover {
+	background-color: #45a049;
+}
